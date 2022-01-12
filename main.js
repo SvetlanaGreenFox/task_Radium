@@ -13,7 +13,7 @@ content.addEventListener('click', function () {
 });
 
 document.addEventListener('keydown', function (e) {
-  if (e.code == '32') {
+  if (e.keyCode == '32') {
     e.preventDefault();
     content.remove();
   }
