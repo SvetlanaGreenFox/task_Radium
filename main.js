@@ -10,6 +10,9 @@ content.addEventListener('mouseleave', function () {
 
 content.addEventListener('click', function () {
   content.style.opacity = 0;
+  setTimeout(function () {
+    content.style.opacity = '';
+  }, 2000);
 });
 
 document.addEventListener('keydown', function (e) {
